@@ -23,3 +23,16 @@ Aberlour:
 Aberlour produceert whisky's met een rijk en vol karakter, gekenmerkt door een combinatie van fruitige tonen en kruidige warmte. Ze gebruiken vaak sherryvaten voor het rijpingsproces, waardoor hun whisky's een diepte en complexiteit krijgen. Aberlour whiskies hebben tonen van rozijnen, chocolade, kaneel en een lichte hint van turfrook.
 
 Andere bekende merken uit Speyside zijn Glen Moray, Glen Grant, Cardhu en Mortlach, elk met hun eigen unieke eigenschappen en bijzonderheden. Speyside whiskies staan bekend om hun verfijning, uitgebalanceerde smaken en complexiteit, waardoor ze een favoriet zijn onder whiskyliefhebbers over de hele wereld.
+
+
+[Glenfiddich](/landen/schotland/highlands/glenfiddich/):
+Glenfiddich is een van de meest bekende en iconische merken uit de Highlands. Het staat bekend om zijn zachte en fruitige whisky's, met tonen van appel, peer en vanille. Glenfiddich is ook een pionier geweest op het gebied van het rijpen van whisky in verschillende soorten vaten, wat heeft geleid tot interessante experimenten en unieke smaakprofielen.
+
+[Dalmore](/landen/schotland/highlands/dalmore/):
+Dalmore is een merk dat bekend staat om zijn elegantie en complexiteit. Hun whisky's hebben vaak rijke tonen van chocolade, karamel, citrusvruchten en kruiden. Wat Dalmore onderscheidt, is hun gebruik van verschillende soorten vaten, waaronder sherryvaten, om de whisky te laten rijpen en te verfijnen, wat resulteert in diepgaande en uitgebalanceerde smaken.
+
+[Macallan](/landen/schotland/highlands/macallan/):
+Macallan is een gerenommeerd merk dat bekend staat om zijn kwaliteit en luxe uitstraling. Ze staan bekend om hun gebruik van de beste sherryvaten voor het rijpingsproces, wat resulteert in rijke en volle smaken. Macallan whisky's vertonen vaak tonen van gedroogd fruit, kruiden, eikenhout en een subtiele zoetheid.
+
+[Oban](/landen/schotland/highlands/oban/):
+Oban is gevestigd aan de westkust van Schotland en produceert whisky's met een maritiem karakter. Ze staan bekend om hun robuuste en rokerige smaakprofiel, met hints van zeelucht, turfrook en zachte fruitige tonen. Oban whisky's worden gewaardeerd om hun balans tussen zoetheid en rokerigheid.

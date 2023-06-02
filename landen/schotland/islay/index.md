@@ -1,13 +1,13 @@
 ---
-layout: page
+layout: region
 title: Islay
 ---
 
 Islay, een klein eiland aan de westkust van Schotland, staat wereldwijd bekend om zijn kenmerkende en rokerige whisky's. Dit gebied is een paradijs voor liefhebbers van geturfde en intense single malt whisky's. Het ruige klimaat, de rijke turfgronden en de invloed van de zee creëren de perfecte omstandigheden voor de productie van Islay whisky's met een onderscheidend karakter.
 
-Bekende Merken uit Islay:
+Bekende merken uit Islay:
 
-1. Laphroaig:
+1. [Laphroaig]({% link landen/schotland/islay/laphroaig.md %}):
 Laphroaig is een iconische distilleerderij op Islay en staat bekend om zijn krachtige, rokerige en medicinale whisky's. Ze gebruiken zwaar geturfde gerst en laten hun whisky's rijpen in oude eiken vaten, wat resulteert in intense en complexe smaken. Laphroaig whisky's hebben sterke tonen van turfrook, zeewier, jodium en een hint van zoetheid. Ze bieden een onvergetelijke en uitgesproken Islay-ervaring.
 
 2. Ardbeg:
