@@ -1,0 +1,7 @@
+<ul>
+{% for bottle in site.tags.[page.title] %}
+    <li><a href="{{ bottle.permalink | prepend: site.baseurl }}">{{ bottle.title }}</a></li>
+    <!-- div class="summary">{{page.summary}}</div-->
+{% endfor %}
+</ul>
+

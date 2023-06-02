@@ -1,0 +1,27 @@
+{% if page.categories %}
+    {% assign categories = page.categories %}
+{% else %}
+    {% assign categories = include.path | split:"/" %}
+    {% assign filename_without_extension = categories | last | split:"." | first %}
+    {% if categories contains "_posts" or filename_without_extension == "index" %}
+        {% comment %} posts are like /docs/python/_posts/2016-06-06-foobar.md {% endcomment %}
+        {% comment %} OR pages are index.* i.e.: like /docs/python/index.md or index.html {% endcomment %}
+        {% assign categories = categories  | pop %}
+    {% endif %}
+{% endif %}
+
+{% assign route="" %}
+
+<div class="container breadcrumbs">
+    <a href="{{ '/' | absolute_url }}">Home</a>
+    {% for category in categories %}
+        <span class="prompt">/</span>
+        {% assign route = route | append: '/' | append: category %}
+        {% comment %}If a category has more than one word, we want them all the be capitalized{% endcomment %}
+        {% capture titlecase %}
+        {% for word in category %}
+            {{ word | capitalize }}
+        {% endfor %}{% endcapture %}
+        <a href="{{ route | absolute_url }}">{{  titlecase }}</a> 
+    {% endfor %}
+</div>

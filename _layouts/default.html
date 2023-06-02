@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  {% include google_analytics.html %}
+  {% include google_tag_manager.html %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-Bdu5VR9OHR2a4MVH89CIE2ozwNSU0uUtl+/+t9jBEdRmv2D0D8AxdR4iAYv/3zLyLlJgP8W1zgMgT/pLdeR4bQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {% seo %}
+</head>
+<body>
+  {% include google_tag_manager_noscript.html %}
+    <!-- Navigation -->
+    {% include navigation.html %}
+
+    {% include jumbotron.html %}
+
+    {% include breadcrumbs.html path=page.path title=page.title %}
+
+
+    <!-- Content -->
+     {{ content }}
+
+    {% include footer.html %}
+  <!-- JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

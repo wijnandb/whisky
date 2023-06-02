@@ -1,0 +1,17 @@
+---
+layout: default
+title: Home
+---
+<div class="container">
+    <h1>Laatste berichten</h1>
+    <div class="row">
+        {% for post in site.posts limit:4 %}
+            <div class="col-md-6">
+                <h2>{{ post.title }}</h2>
+                <p class="small mute">{{ post.date | date: "%-d/%m/%Y" }}</p>
+                <p>{{ post.content | truncatewords: 50, "" | markdownify }} ...</p>
+                <a href="{{ post.url }}">Lees verder....</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
